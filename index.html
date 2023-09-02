@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html_lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sign-up form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <div class="left">
+      <img src="odin-lined.png">ODIN
+    </div>
+    <div class="img-credit">
+      <a href="https://www.pexels.com/@emma-pollard-676280/">Image by Emma Pollard.</a>
+    </div>
+    <div class="right">
+      <div class="right-text">
+        <p>This is not a real online service! You know you need something like
+        this in your life to help you realize your deepest dreams.</P>
+        <p>Sign up now to get started.</p>
+        <p><i>You know you want to.</i></p>
+      </div>
+      <div class="form-wrap">
+        <form id="my-form">
+          <p>Let's do this!</p>
+          <div>
+            <label for="fname">First name</label>
+            <span></span>
+          </br>
+            <input id="fname" name="fname" type="text" required />
+          </div>
+          <div>
+            <label for="lname">Last name</label>
+            </br>
+            <input id="lname" name="lname" type="text" required/>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            </br>
+            <input id="email" name="email" type="email" required/>
+          </div>
+          <div>
+            <label for="tel-number">Phone number(optional)</label>
+            </br>
+            <input id="tel-number" name="tel-number" type="text"/>
+          </div>
+          <div>
+            <label for="pword">Password</label>
+            </br>
+            <input id="pword" name="pword" type="password" required/>
+          </div>
+          <div>
+            <label for="pword-confirm">Confirm password</label>
+            </br>
+            <input id="pword-confirm" name="pword-confirm" type="password" required/>
+          </div>
+          </form>
+      </div>
+      <button id="submit-btn" type="submit" form="my-form">Create account</button>
+      <div class="log-in-wrap">
+        <p>Already have an account? <a id="log-in" href="#">Log in</link></p>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
